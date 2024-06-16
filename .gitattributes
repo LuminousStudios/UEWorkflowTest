@@ -1,0 +1,19 @@
+# Macros
+[attr]lfs filter=lfs diff=lfs merge=binary -text
+[attr]lock lockable
+
+# Unreal Engine files
+*.umap lfs lock
+*.uasset lfs lock
+*.locres lfs
+*.locmeta lfs
+
+# Icons
+*.png lfs
+*.ico lfs
+*.bmp lfs
+
+# Movies
+*.mp4 lfs
+*.webm lfs
+
