@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>UEGitPlugin.Linux</id>
+        <version>1.0.0</version>
+        <authors>Luminous Studio</authors>
+        <description>h</description>
+        <tags>Plugin</tags>
+    </metadata>
+    <files>
+        <file src="Plugins/UEGitPlugin/Binaries/Linux/*.modules" target="lib" />
+        <file src="Plugins/UEGitPlugin/Binaries/Linux/*.target" target="lib" />
+        <file src="Plugins/UEGitPlugin/Binaries/Linux/*.so" target="lib" />
+        <file src="Plugins/UEGitPlugin/Binaries/Linux/*.debug" target="lib" />
+        <file src="Plugins/UEGitPlugin/Binaries/Linux/*.sym" target="lib" />
+    </files>
+</package>
