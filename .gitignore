@@ -21,6 +21,9 @@
 !/Content/**/*.uasset
 !/Content/**/*.umap
 
+# Allow github configuration files
+!/.github/**
+
 # OS/platform generated files.
 
 # Windows
