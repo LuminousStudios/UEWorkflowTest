@@ -14,3 +14,4 @@ jobs:
         uses: everlytic/branch-merge@master
         with:
           target_branch: trunk
+          github_token: ${{ secrets.REPO_TOKEN }}
