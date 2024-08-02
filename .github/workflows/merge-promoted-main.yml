@@ -8,10 +8,10 @@ on:
 jobs:
   merge:
     runs-on: ubuntu-latest
-    permissions: write-all
     steps:
       - uses: actions/checkout@v2
       - name: Merge promoted -> main
         uses: everlytic/branch-merge@master
         with:
           target_branch: main
+          github_token: ${{ secrets.REPO_TOKEN }}
